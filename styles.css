@@ -1,0 +1,72 @@
+body {
+  background: #eee;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+#header-img {
+  width: 300px;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.nav-link {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+#features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hand {
+  font-size: 40px;
+}
+#form {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#email {
+  width: 300px;
+  height: 50px;
+}
+
+#submit {
+  background: yellow;
+  width: 150px;
+  height: 50px;
+  margin-top: 50px;
+}
+
+#howItWorks {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  height: 400px;
+}
+
+@media (max-width: 900px) {
+  body {
+    background-color: #eee;
+  }
+}
